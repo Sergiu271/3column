@@ -1,0 +1,73 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.card{
+  background-color:  hsl(0, 0%, 95%);
+  height: 900px;
+  width: 1440px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box_one{
+  width: 400px;
+  height: 600px;
+  background-color: hsl(31, 77%, 52%);
+  position: absolute;
+}
+.box_two{
+  width: 400px;
+  height: 600px;
+  background-color: hsl(184, 100%, 22%);
+  position: absolute;
+  left: 400px;
+
+}
+.box_three{
+  width: 400px;
+  height: 600px;
+  background-color: hsl(179, 100%, 13%);
+  position: absolute;
+  left: 800px;
+}
+.boxes{
+  position: relative;
+  top:150px;
+  left: 125px;
+
+}
+.main_text{
+  color: hsla(0, 0%, 100%, 0.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family:'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+.top_text{
+  color:hsl(0, 0%, 95%);
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+
+}
+svg{
+  position: relative;
+  top:50px;
+  left: 100px;
+}
+.more{
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  text-align: center;
+  border-radius: 12px;
+  width:100px;
+  padding: 20px;
+  position: relative;
+  top: 350px;
+  left: 100px;
+}
